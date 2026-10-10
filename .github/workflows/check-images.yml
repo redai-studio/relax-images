@@ -24,4 +24,4 @@ jobs:
           node-version: 24
 
       - name: Check image sizes
-        run: node scripts/check-images.js
+        run: node scripts/check-images.mjs
